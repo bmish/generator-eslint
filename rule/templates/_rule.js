@@ -13,15 +13,15 @@ module.exports = {
         docs: {
             description: "<%- desc.replace(/"/g, '\\"') %>",
             category: "Fill me in",
-            recommended: false
+            recommended: false,
         },
-        fixable: null,  // or "code" or "whitespace"
+        fixable: null, // or "code" or "whitespace"
         schema: [
             // fill in your schema
-        ]
+        ],
     },
 
-    create: function(context) {
+    create(context) {
 
         // variables should be defined here
 
@@ -40,5 +40,5 @@ module.exports = {
             // give me methods
 
         };
-    }
+    },
 };
